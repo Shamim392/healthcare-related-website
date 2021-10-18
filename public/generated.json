@@ -1,0 +1,82 @@
+[
+  {
+    "key": "616db20001d9345d6ad19c56",
+    "Medicinename": "Thorne Gallipot",
+    "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    "Medicineprice": "$ 232",
+    "Rate": "3.9",
+    "img": "https://images.unsplash.com/photo-1562243061-204550d8a2c9?Medicinenameixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fG1lZGljaW5lfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "key": "616db200cbcc8ab47ff01e00",
+    "Medicinename": "Cream Colored",
+    "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    "Medicineprice": "$ 132",
+    "Rate": "3.2",
+    "img": "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80"
+  },
+  {
+    "key": "616db200f842cd42acc4b628",
+    "Medicinename": "Donkey Kong",
+    "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    "Medicineprice": "$ 350",
+    "Rate": "4.5",
+    "img": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "key": "616db2004c43fe4792a4a460",
+    "Medicinename": "Brain Medication",
+    "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    "Medicineprice": "$ 200",
+    "Rate": "4.5",
+    "img": "https://image.shutterstock.com/image-photo/drug-prescription-treatment-medication-pharmaceutical-600w-544348294.jpg"
+  },
+  {
+    "key": "616db200efc561242e6efe1e",
+    "Medicinename": "Seiko Men’s ska605 Kinetic",
+    "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    "Medicineprice": "$ 120",
+    "Rate": "4.2",
+    "img": "https://ahchealthenewscdn.azureedge.net/wp-content/uploads/2019/03/pills-and-alcohol-505x337.jpg"
+  },
+  {
+    "key": "616db200d037b9d23c99edb2",
+    "Medicinename": "Happy Ninja",
+    "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    "Medicineprice": "$ 520",
+    "Rate": "3.9",
+    "img": "https://shabiba.eu-central-1.linodeobjects.com/2019/11/10/1074475.jpg"
+  },
+  {
+    "key": "616db2001e60d62def835886",
+    "Medicinename": "Cancer Medicine",
+    "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    "Medicineprice": "$ 250",
+    "Rate": "4.0",
+    "img": "https://media.gettyimages.com/photos/background-of-a-large-group-of-assorted-capsules-pills-and-blisters-picture-id1153740646?s=612x612"
+  },
+  {
+    "key": "616db2009c74f518fda2782d",
+    "Medicinename": "Blood Inhaler",
+    "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    "Medicineprice": "$ 210",
+    "Rate": "2.4",
+    "img": "https://folksgrowth.com/wp-content/uploads/2020/04/folksgrowth.com-drug.jpg"
+  },
+  {
+    "key": "616db20097b1bfbf15627e60",
+    "Medicinename": "Heart Tablet",
+    "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    "Medicineprice": "$ 300",
+    "Rate": "3.5",
+    "img": "https://previews.123rf.com/images/luchschen/luchschen1710/luchschen171000254/87775477-capsule-tablets-and-vials-with-medicines.jpg"
+  },
+  {
+    "key": "616db200773b19f02176eae2",
+    "Medicinename": "Mouth Spray",
+    "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    "Medicineprice": "$ 210",
+    "Rate": "3.9",
+    "img": "https://thumbs.dreamstime.com/b/stethoscope-bottle-medicine-feeding-syringe-capsule-b-stethoscope-bottle-medicine-feeding-syringe-capsule-101037725.jpg"
+  }
+]
