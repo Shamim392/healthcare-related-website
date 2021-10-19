@@ -10,7 +10,7 @@ const Medicines = () => {
             .then(data => setMedicines(data));
     }, [])
     return (
-        <div>
+        <div id="medicines">
             <h2 className="text-primary mt-5 mb-2">Best Products</h2>
             <div className="medicine-container">
                 {
