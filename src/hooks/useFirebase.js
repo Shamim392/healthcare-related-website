@@ -1,40 +1,45 @@
 import { getAuth, signInWithPopup, GoogleAuthProvider, signOut, onAuthStateChanged } from "firebase/auth";
 import { useEffect, useState } from "react";
-import initializeAuthentication from "../components/Login/Firebase/Firebase.init";
+import initializeAuthentication from "../Firebase/Firebase.init";
+
 
 initializeAuthentication();
 
 const useFirebase =() =>{
-    const [users,setUsers] =useState({});
+    const [user,setUser] =useState({});
+    const [isLoading, setIsLoading] = useState(true)
     const auth = getAuth();
 
 
     const signInUsingGoogle=() =>{
+        setIsLoading(true);
         const googleProvider = new GoogleAuthProvider();
-        signInWithPopup(auth, googleProvider)
-        .then(result => {
-            setUsers(result.user);
-        })
+       return signInWithPopup(auth, googleProvider)
+        
     }
     useEffect( () =>{
         onAuthStateChanged(auth, user =>{
             if(user){
-                setUsers(user);
+                setUser(user);
             }
             else{
-                setUsers({})
+                setUser({})
             }
-        })
-    })
+            setIsLoading(false)
+        });
+    }, [])
 
-    const logout =() =>{
+    const logOut = () =>{
+        setIsLoading(true)
         signOut(auth)
-        .then(() => {})
+            .then(() => { })
+            .finally(() => setIsLoading(false));
     }
     return{
-        users,
+        user,
+        isLoading,
         signInUsingGoogle,
-        logout
+        logOut
     }
 }
 export default useFirebase;

@@ -8,28 +8,31 @@ const Footer = () => {
                 <Container fluid className="text-center text-md-left">
                     <Row>
                         <Col md="6">
-                            <h5 className="title">Footer Content</h5>
+                            <h5 className="title">CONTACT INFORMATION</h5>
                             <p>
-                                Here you can use rows and columns here to organize your footer
-                                content.
+                                Address: Uttara,Dhaka 1230 <br />
+                                Openning time:
+                                8am to 10pm from Monday to Saturday
                             </p>
                         </Col>
                         <Col md="6">
-                            <h5 className="title">Links</h5>
-                            <ul>
-                                <li className="list-unstyled text-white">
-                                    <a className="text-white" href="#!">Link 1</a>
-                                </li>
-                                <li className="list-unstyled">
-                                    <a className="text-white" href="#!">Link 2</a>
-                                </li>
-                                <li className="list-unstyled">
-                                    <a className="text-white" href="#!">Link 3</a>
-                                </li>
-                                <li className="list-unstyled">
-                                    <a className="text-white" href="#!">Link 4</a>
-                                </li>
-                            </ul>
+                            <h5 className="title">Services</h5>
+                            <div>
+                                <ul>
+                                    <li className="list-unstyled text-white">
+                                        <a className="text-white" href="#!">Shipping</a>
+                                    </li>
+                                    <li className="list-unstyled">
+                                        <a className="text-white" href="#!">Retuns</a>
+                                    </li>
+                                    <li className="list-unstyled">
+                                        <a className="text-white" href="#!">Site Map</a>
+                                    </li>
+                                    <li className="list-unstyled">
+                                        <a className="text-white" href="#!"> Products Recalls</a>
+                                    </li>
+                                </ul>
+                            </div>
                         </Col>
                     </Row>
                 </Container>

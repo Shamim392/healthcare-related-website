@@ -2,8 +2,12 @@
   background-color: rgb(179, 240, 219);
   border: 1px solid;
   border-radius: 20px;
-  /* margin: 20px; */
 }
 img {
   border-radius: 20px;
+  padding-bottom: 5px;
+}
+.text {
+  text-align: left;
+  padding-left: 20px;
 }
